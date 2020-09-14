@@ -1,7 +1,8 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-image: url(https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
 textarea {
@@ -19,13 +20,14 @@ textarea {
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+    font-weight: bold;
 }
 
 .description {
     white-space: pre-wrap;
 }
 
-.time-block {
+.timeblock-container-fluid {
     text-align: center;
     border-radius: 15px;
 }
@@ -41,6 +43,7 @@ textarea {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    display: inline-block
 }
 
 .past {
